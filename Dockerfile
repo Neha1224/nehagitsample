@@ -1,3 +1,3 @@
 FROM nginx:latest
-COPY project.html /usr/share/nginx/html/project.html
+COPY project.html /usr/share/nginx/html/index.html
 EXPOSE 80
